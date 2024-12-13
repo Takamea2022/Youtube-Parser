@@ -1,0 +1,69 @@
+body {
+  font-family: "Georgia";
+  background: #222;
+  color: #888;
+}
+
+h1 {
+  font-size: 32.5px;
+}
+h1 span {
+  color: #e62117;
+  font-weight: bold;
+}
+
+em {
+  color: #e62117;
+}
+
+input {
+  padding: 5px;
+  background: #888;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 24px;
+}
+input[type="text"] {
+  width: 44%;
+  height: 35px;
+}
+input[type="text"]:focus {
+  outline-color: #e62117;
+}
+input[type="button"] {
+  height: 45px;
+  margin-left: 5px;
+  background: #e62117;
+  font-weight: bold;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background: #0c0;
+}
+
+output {
+  display: block;
+  margin: 5px 0;
+  color: #888;
+}
+
+figure {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  margin: 25px 0 0;
+}
+figure iframe,
+figure object,
+figure video,
+figure embed,
+figure div,
+figure .BrightcoveExperience {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important; /* Override inline styles from BrightCove */
+  height: 100% !important; /* Override inline styles from BrightCove */
+  border: none;
+}
